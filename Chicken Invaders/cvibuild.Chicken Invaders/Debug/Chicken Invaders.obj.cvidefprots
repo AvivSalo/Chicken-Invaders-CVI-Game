@@ -1,0 +1,52 @@
+[draw]
+Class="Function"
+Prototype="void draw();"
+
+[update]
+Class="Function"
+Prototype="void update();"
+
+[initilize]
+Class="Function"
+Prototype="void initilize();"
+
+[terminate]
+Class="Function"
+Prototype="void terminate();"
+
+[UpdateMenu]
+Class="Function"
+Prototype="void UpdateMenu();"
+
+[DrawMenu]
+Class="Function"
+Prototype="void DrawMenu();"
+
+[updateBoss]
+Class="Function"
+Prototype="void updateBoss();"
+
+[drawBoss]
+Class="Function"
+Prototype="void drawBoss();"
+
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[exitFunc]
+Class="Function"
+Prototype="int exitFunc(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CanvasClickFunc]
+Class="Function"
+Prototype="int CanvasClickFunc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[timerFunc]
+Class="Function"
+Prototype="int timerFunc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[VolumeFunc]
+Class="Function"
+Prototype="int VolumeFunc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

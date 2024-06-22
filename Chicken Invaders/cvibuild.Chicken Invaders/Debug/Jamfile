@@ -1,0 +1,43 @@
+CCFLAGS = -g ;
+HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activex\\word"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activex\\excel"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\custctrl"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\custctrl\\custsupp"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\cvirtsup"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\datasock"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\daqUtil"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\printing"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\toolbox"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\reportgen"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\localui"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2017\\instr"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2017\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include\\ansi"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include\\clang\\3.3"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2017\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2017\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "Chicken Invaders.c" = "c:\\Users\\Aviv\\Documents\\###הנדסה מכאנית אפקה###\\שנה ג\\תכנות למכטרוניקה\\Chicken Invaders" ;
+Object "c:\\Users\\Aviv\\Documents\\###הנדסה מכאנית אפקה###\\שנה ג\\תכנות למכטרוניקה\\Chicken Invaders\\cvibuild.Chicken Invaders\\Debug\\Chicken Invaders.obj" : "c:\\Users\\Aviv\\Documents\\###הנדסה מכאנית אפקה###\\שנה ג\\תכנות למכטרוניקה\\Chicken Invaders\\Chicken Invaders.c" ;
+FILENUM on "c:\\Users\\Aviv\\Documents\\###הנדסה מכאנית אפקה###\\שנה ג\\תכנות למכטרוניקה\\Chicken Invaders\\cvibuild.Chicken Invaders\\Debug\\Chicken Invaders.obj" = 1 ;
+DEFPROTS on "c:\\Users\\Aviv\\Documents\\###הנדסה מכאנית אפקה###\\שנה ג\\תכנות למכטרוניקה\\Chicken Invaders\\cvibuild.Chicken Invaders\\Debug\\Chicken Invaders.obj" = "c:\\Users\\Aviv\\Documents\\###הנדסה מכאנית אפקה###\\שנה ג\\תכנות למכטרוניקה\\Chicken Invaders\\cvibuild.Chicken Invaders\\Debug\\Chicken Invaders.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\Aviv\\Documents\\###הנדסה מכאנית אפקה###\\שנה ג\\תכנות למכטרוניקה\\Chicken Invaders\\cvibuild.Chicken Invaders\\Debug\\Chicken Invaders.obj" = "c:\\Users\\Aviv\\Documents\\###הנדסה מכאנית אפקה###\\שנה ג\\תכנות למכטרוניקה\\Chicken Invaders\\cvibuild.Chicken Invaders\\Debug\\Chicken Invaders.obj.out" ;
+PrjObjects += "c:\\Users\\Aviv\\Documents\\###הנדסה מכאנית אפקה###\\שנה ג\\תכנות למכטרוניקה\\Chicken Invaders\\cvibuild.Chicken Invaders\\Debug\\Chicken Invaders.obj" ;
+Object "c:\\Users\\Aviv\\Documents\\###הנדסה מכאנית אפקה###\\שנה ג\\תכנות למכטרוניקה\\Chicken Invaders\\cvibuild.Chicken Invaders\\Debug\\resources.res" : "c:\\Users\\Aviv\\Documents\\###הנדסה מכאנית אפקה###\\שנה ג\\תכנות למכטרוניקה\\Chicken Invaders\\cvibuild.Chicken Invaders\\Debug\\resources.in.rc" ;
+Depends "c:\\Users\\Aviv\\Documents\\###הנדסה מכאנית אפקה###\\שנה ג\\תכנות למכטרוניקה\\Chicken Invaders\\cvibuild.Chicken Invaders\\Debug\\resources.res" : "c:\\Users\\Aviv\\Documents\\###הנדסה מכאנית אפקה###\\שנה ג\\תכנות למכטרוניקה\\Chicken Invaders\\cvibuild.Chicken Invaders\\Debug\\manifest.xml" ;
+MainFromObjects "c:\\Users\\Aviv\\Documents\\###הנדסה מכאנית אפקה###\\שנה ג\\תכנות למכטרוניקה\\Chicken Invaders\\cvibuild.Chicken Invaders\\Debug\\Chicken Invaders.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "c:\\Users\\Aviv\\Documents\\###הנדסה מכאנית אפקה###\\שנה ג\\תכנות למכטרוניקה\\Chicken Invaders\\cvibuild.Chicken Invaders\\Debug\\Chicken Invaders.exe" : "c:\\Users\\Aviv\\Documents\\###הנדסה מכאנית אפקה###\\שנה ג\\תכנות למכטרוניקה\\Chicken Invaders\\cvibuild.Chicken Invaders\\Debug\\link_options.txt" ;
+Depends "c:\\Users\\Aviv\\Documents\\###הנדסה מכאנית אפקה###\\שנה ג\\תכנות למכטרוניקה\\Chicken Invaders\\cvibuild.Chicken Invaders\\Debug\\Chicken Invaders.exe" : "c:\\Users\\Aviv\\Documents\\###הנדסה מכאנית אפקה###\\שנה ג\\תכנות למכטרוניקה\\Chicken Invaders\\cvibuild.Chicken Invaders\\Debug\\resources.res" ;
+Depends all : "c:\\Users\\Aviv\\Documents\\###הנדסה מכאנית אפקה###\\שנה ג\\תכנות למכטרוניקה\\Chicken Invaders\\cvibuild.Chicken Invaders\\Debug\\Chicken Invaders.exe" ;
