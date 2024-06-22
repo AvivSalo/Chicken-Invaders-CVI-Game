@@ -2,6 +2,13 @@
 
 ## Welcome to Chicken Invaders: Space Showdown! This game is a thrilling space adventure where you take on the role of a brave pilot defending the universe from an onslaught of intergalactic chickens.
 
+---
+
+## * Video
+[![Watch the video](https://img.youtube.com/vi/JsUjaFHpexM/0.jpg)](https://www.youtube.com/watch?v=JsUjaFHpexM)
+
+---
+
 ## * Overview
 In Chicken Invaders: Space Showdown, you control a space shelter using your mouse. Your mission is to fire at the invading chickens, collect gifts, and increase your points to climb the top hits table. Battle your way through waves of enemies and face off against formidable boss chickens!
 
@@ -29,8 +36,3 @@ Enjoy the game and may the best pilot win! 🚀👾
 Happy Shooting! 🐔🔫
 
 Disclaimer: This game is a fun project created with love and dedication. Enjoy responsibly!
-
----
-
-## * Video
-[![Watch the video](https://img.youtube.com/vi/JsUjaFHpexM/0.jpg)](https://www.youtube.com/watch?v=JsUjaFHpexM)
