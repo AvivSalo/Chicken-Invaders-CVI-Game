@@ -32,8 +32,5 @@ Disclaimer: This game is a fun project created with love and dedication. Enjoy r
 
 ---
 
+## * Video
 [![Watch the video](https://img.youtube.com/vi/JsUjaFHpexM/0.jpg)](https://www.youtube.com/watch?v=JsUjaFHpexM)
-
----
-
-![Chicken Invaders: Space Showdown]([path/to/your/image.png](https://www.google.com/url?sa=i&url=https%3A%2F%2Fapps.microsoft.com%2Fdetail%2F9wzdncrdr9hw%3F&psig=AOvVaw0wD6vybub2Qh-CipOUYHt2&ust=1719185828946000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPCky7qw8IYDFQAAAAAdAAAAABAI))
